@@ -1,0 +1,273 @@
+body{
+    font-family: 'Montserrat' !important;
+}
+body{
+    color: #6c757d;
+}
+th{
+    white-space: normal !important;
+}
+td{
+    padding: 3px 5px !important;
+    white-space: normal !important;
+}
+table{
+    margin-bottom: 5px !important;
+}
+
+.dropdown-menu a{
+    color: #525f7f;
+}
+a{
+	cursor: pointer;
+}
+td {
+    vertical-align: middle !important;
+}
+.bold{
+	font-weight: bold !important;
+}
+.loading-gif-image{
+	height: 70px;
+    border-radius: 70px;
+}
+
+
+.font-default, .btn{
+    font-family: 'Montserrat' !important;
+}
+.input-group-text{
+    font-family: 'Montserrat';
+    background: none;
+    border: 1px solid #0084ff;
+    font-size: 16px;
+    color: #6c757d;
+    padding-top: 8px;
+    font-weight: bold;
+}
+.input-group-text i{
+    font-size: 30px;
+}
+.form-control-input-group-prepend{
+    border-left: none !important;
+    font-size: 16px !important;
+    padding: 0px 10px !important;
+}
+.form-control{
+    font-size: 16px;
+    padding: 0px 10px !important;
+}
+.form-control-label{
+    font-family: 'Montserrat';
+    margin-bottom: 5px;
+}
+.text-muted{
+    font-size: 14px !important;
+}
+label.error{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #d64747;
+}
+.text-dark{
+    color: #6c757d !important;
+}
+.text-dark-not-impor{
+    color: #6c757d;
+}
+.btn-rounded{
+    border-radius: 30px;
+}
+.toast{
+    font-family: 'Montserrat';
+}
+.toast-title{
+    line-height: 22px;
+}
+.toast-message{
+    line-height: 18px;
+}
+label.error{
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-group-checkbox .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.form-group-checkbox .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.form-group-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.form-group-checkbox .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.form-group-checkbox .container input:checked ~ .checkmark {
+  background-color: #0084ff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.form-group-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.form-group-checkbox .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.form-group-checkbox .container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#navbarSupportedContent a{
+  padding: 12px 20px;
+}
+#navbarSupportedContent .btn-custom-padding{
+  padding: 14px 5px;
+}
+#navbarSupportedContent .dropdown-item{
+  font-weight: bold;
+  font-size: 14px;
+}
+#navbarSupportedContent .dropdown-menu li{
+  border: 1px solid #0084ff;
+}
+#navbarSupportedContent .dropdown-menu{
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-nav{
+  background: none !important;
+}
+@media only screen and (max-width: 992px) {
+  .navbar-nav .nav-item{
+    margin-top: 5px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home {
+    padding: 60px 0px 50px 0px !important;
+  }
+  .navbar-nav{
+    margin-top: 0px !important;
+    padding: 0px 30px;
+  }
+  .navbar{
+    background-color: white !important;
+  }
+}
+.container-custom{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+.progress{
+  height: 8px;
+  background-color: #707070;
+}
+
+
+#modal-sign .nav-tabs .nav-link {
+    border: 4px solid #fff;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-color: #fff #fff #0084ff;
+    color: #6c757d;
+    font-weight: normal;
+}
+#modal-sign .nav-tabs .nav-link:hover {
+    color: #6c757d;
+    border-color: #fff #fff #0084ff;
+}
+#modal-sign .nav-tabs .nav-link.active {
+    color: #0084ff;
+    background-color: #fff;
+    border-color: #0084ff #0084ff #fff;
+    font-weight: bold;
+}
+#modal-sign .nav-tabs .nav-link.active:hover {
+    color: #0084ff;
+    border-color: #0084ff #0084ff #fff;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .navbar-brand{
+    right: -40px;
+    top: -11px;
+  }
+  .navbar-brand img{
+    max-height: 48px !important;
+  }
+}
+
+.footer-information-container p{
+  line-height: 20px;
+  margin-top: 15px;
+}
+
+.form-control{
+  height: 50px;
+}
+
+.select2-container--default .select2-selection--single, .select2-container--default .select2-selection--single .select2-selection__rendered{
+  height: 38px;
+  padding-top: 2.5px;
+}
+.select2-selection__arrow{
+  margin-top: 5px;
+}
